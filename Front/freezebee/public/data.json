@@ -1,0 +1,22 @@
+{
+    "models": [
+        {"name": "Gauthier", "description": "je suis la", "prix": 14, "gamme": "enfant"},
+        {"name": "Louis", "description": "je suis pas la", "prix": 5, "gamme": "adulte"},
+        {"name": "Vincent", "description": "je suis la aussi", "prix": 10, "gamme": "ados"}
+    ],
+    "ingredients": [
+        {"name": "Plastique", "description": "Matière fragile"},
+        {"name": "Carbone", "description": "Matière solide"}
+    ],
+    "processes": [
+        {"name": "Modele 2", "description": "test", "model": {"name": "Gauthier", "description": "je suis la", "prix": 14, "gamme": "enfant"}},
+        {"name": "Modele 1", "description": "test", "model": {"name": "Vincent", "description": "je suis la aussi", "prix": 10, "gamme": "ados"}}
+    ],
+    "steps": [
+        {"name": "début", "description": "c'est le début"},
+        {"name": "fin", "description": "c'est la fin"}
+    ],
+    "tests": [
+        {"name": "test de résistance", "description": "on le lance fort", "type": "resistance", "process": {"name": "Modele 2", "description": "test", "models": {"name": "Gauthier", "description": "je suis la", "prix": 14, "gamme": "enfant"}}}
+    ]
+}
